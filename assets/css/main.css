@@ -332,7 +332,8 @@ a.back-to-top:focus {
 }
 
 .top-nav-collapse {
-  background: #fff;
+  backdrop-filter: blur(0.35 rem);
+  background: rgba(43, 64, 90, 0.9) !important;
   z-index: 999999;
   top: 0px !important;
   min-height: 58px;
@@ -343,7 +344,6 @@ a.back-to-top:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background: #fff !important;
 }
 
 .top-nav-collapse .navbar-brand {
