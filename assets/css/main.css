@@ -129,6 +129,9 @@ ol li {
   background-color: #ff6b00;
 }
 
+.text-white {
+  color: #fff;
+}
 .section-info {
   font-size: 14px;
   text: center;
